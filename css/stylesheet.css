@@ -1,7 +1,7 @@
 body {
-    margin: 0;
-    padding: 0;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -121,4 +121,34 @@ body {
     font-style: 0;
     font-weight: bold;
     text-align: right;
+}
+
+.action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-container-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    border: 3px solid transparent transparent;
+    border-radius: 3px;
+    color: #F9FAF8;
+}
+
+.action-container.sign-up-button {
+    border: 2px solid #F9FAF8;
+    border-radius: 2px;;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#1F2937;
+    color: #F9FAF8;
 }
