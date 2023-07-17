@@ -26,13 +26,22 @@ body {
     font-size: 24px;
 }
 
+
 .main-container {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 5px;
 }
 
 .main-items-left {
     width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .main-container h1 {
@@ -49,4 +58,44 @@ body {
 .main-items-left button {
     color: #F9FAF8;
     width: 100px;
+}
+
+.main-items-right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-items-right img{
+    width: 100%;
+}
+
+.information-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.information-container-boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.information-container-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.information-container-box img {
+    width: 100%;
+    border: 5px solid #3882f6;
+    border-radius: 5px;
+    padding: 0;
+    margin: 0;
 }
