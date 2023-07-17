@@ -52,6 +52,7 @@ hero {
 }
 
 .hero-right {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -82,4 +83,32 @@ button {
     color: #F9FAF8;
     width: 30%;
     height: 30px;
+}
+
+.white-background {
+    background-color: white;
+    color: #1F2937;
+}
+
+.random-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.random-boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    width: 70%;
+}
+
+.random-box img {
+    border: 6px solid #3882F6;
+    border-radius: 5px;
 }
